@@ -1,0 +1,57 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Sections */
+.intro, .features {
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Demonstrating Box Model */
+.features ul li {
+  background: #eee;
+  margin: 10px 0;   /* outside spacing */
+  padding: 10px;    /* inside spacing */
+  border: 1px solid #ccc; /* border */
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
